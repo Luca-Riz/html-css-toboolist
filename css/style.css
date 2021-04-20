@@ -39,6 +39,7 @@ header img {
     height: 50px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border-bottom: 3px solid #f6f8f9;
 }
 
 .buttons input {
@@ -63,17 +64,13 @@ header img {
 /* end buttons */
 
 /* toboo */
-.toboo {
-    border-top: 10px;
-}    
-
 ul {
     list-style: none; /* Remove list bullets */
     line-height: 1.6;
     margin-left: 50px;
 }
 
-li, div, strong /* chiedere perchè se facci su class .toboo non funziona*/{
+li, li div, strong {
     background-color: white;
 }
 
@@ -144,5 +141,12 @@ li div::after {
 .sales::after{
     content: "Sales";
     background-color: #b0c926;
+}
+
+/* padding last div */
+.last div:last-child {
+    padding-bottom: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 /* end toboo */
