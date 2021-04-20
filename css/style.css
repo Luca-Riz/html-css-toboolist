@@ -38,7 +38,7 @@ header img {
 .buttons {
     height: 50px;
     border-top-left-radius: 5px;
-    border-top-right-radius: 25px;
+    border-top-right-radius: 5px;
 }
 
 .buttons input {
@@ -64,7 +64,7 @@ header img {
 
 /* toboo */
 .toboo {
-    margin-top: 2px;
+    border-top: 10px;
 }    
 
 ul {
@@ -78,15 +78,25 @@ li, div, strong /* chiedere perchè se facci su class .toboo non funziona*/{
 }
 
 li::before {
-    content: "tr";  /*sistemare*/
+    content: "\23F7";
 }
 
 .ok::before {
-    content: "v";   /*sistemare*/
+    content: "\2713";  
+    color: #6dc4b0;
+    border: 1px solid #6dc4b0;
+    padding: 2px;
+    margin: 4px;
+    border-radius: 50%;
 }
 
 .not::before {
-    content: "x";   /*sistemare*/
+    content: "\2717"; 
+    color: #eb5d57;
+    border: 1px solid #eb5d57;
+    padding: 2px;
+    margin: 4px;
+    border-radius: 50%;
 }
 
 li div::after {
