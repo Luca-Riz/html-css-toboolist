@@ -64,6 +64,12 @@ header img {
 /* end buttons */
 
 /* toboo */
+
+.toboo{
+    border-bottom-left-radius: 5px;
+
+}
+
 ul {
     list-style: none; /* Remove list bullets */
     line-height: 1.6;
@@ -143,10 +149,13 @@ li div::after {
     background-color: #b0c926;
 }
 
+.last {
+    border-bottom-right-radius: 5px;
+}
+
 /* padding last div */
 .last div:last-child {
     padding-bottom: 30px;
-    border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 /* end toboo */
