@@ -83,18 +83,41 @@ li::before {
     content: "x";   /*sistemare*/
 }
 
-.editorial::after{
-    content: "Editorial";
-    background-color: #4daeea;
-}
-
 li div::after {
     color: white;
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
     font-size: 8px;
-    
 }
 
+.editorial::after{
+    content: "Editorial";
+    background-color: #4daeea;
+}
+
+.goals::after{
+    content: "Q1 Goals";
+    background-color: #9c72e4;
+}
+
+.recruiting::after{
+    content: "Recruiting";
+    background-color: #64c0a9;
+}
+
+.mobile::after{
+    content: "Mobile";
+    background-color: #f29e33;
+}
+
+.website::after{
+    content: "Website";
+    background-color: #d863a1;
+}
+
+.sales::after{
+    content: "Sales";
+    background-color: #b0c926;
+}
 /* end toboo */
