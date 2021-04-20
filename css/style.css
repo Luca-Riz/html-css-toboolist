@@ -69,7 +69,13 @@ header img {
 
 ul {
     list-style: none; /* Remove list bullets */
-  }
+    line-height: 1.6;
+    margin-left: 50px;
+}
+
+li, div, strong /* chiedere perchè se facci su class .toboo non funziona*/{
+    background-color: white;
+}
 
 li::before {
     content: "tr";  /*sistemare*/
