@@ -38,7 +38,7 @@ header img {
 .buttons {
     height: 50px;
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-right-radius: 25px;
 }
 
 .buttons input {
@@ -64,11 +64,37 @@ header img {
 
 /* toboo */
 .toboo {
-    height: 500px; /* da togliere*/
     margin-top: 2px;
 }    
 
+ul {
+    list-style: none; /* Remove list bullets */
+  }
 
+li::before {
+    content: "tr";  /*sistemare*/
+}
 
+.ok::before {
+    content: "v";   /*sistemare*/
+}
+
+.not::before {
+    content: "x";   /*sistemare*/
+}
+
+.editorial::after{
+    content: "Editorial";
+    background-color: #4daeea;
+}
+
+li div::after {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 8px;
+    
+}
 
 /* end toboo */
