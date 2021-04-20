@@ -77,6 +77,10 @@ li, div, strong /* chiedere perchè se facci su class .toboo non funziona*/{
     background-color: white;
 }
 
+li {
+    padding-top: 15px;
+}
+
 li::before {
     content: "\23F7";
 }
